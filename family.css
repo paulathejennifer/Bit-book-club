@@ -1,0 +1,377 @@
+body {
+   height: 100vh;
+   color: black;
+   overflow: scroll;
+   line-height: 30px;
+   
+}
+
+header {
+   background-color: #4768CE;
+   height: 360px;
+   text-align: center;
+   line-height: 40px;
+}
+
+.name {
+   font-size: 15px;
+   color:white;
+}
+
+#belongs-to {
+   font-size: 35px;
+   color:white;
+}
+
+#ownership {
+   font-size: 20px;
+   margin-left: 370px;
+   color:white;
+}
+
+#context {
+   font-weight: bold;
+   font-size: 65px;
+   color: #F0DA60;
+}
+#motivation{
+   color: rgb(128, 5, 5) ;
+}
+#protection-quote{
+   color: rgb(128, 5, 5) ;
+}
+#survival-quote{
+   color: rgb(128, 5, 5) ;
+}
+
+#travor-mom {
+   top: 15%;
+   left: 25%;
+   width: 90%;
+   height: 40%;
+   border-radius: 30px;
+   padding-top: 40px;
+}
+
+#travor-mom:hover {
+   transform: scale(1.1);
+
+}
+
+.review {
+   width: 100%;
+   display: none;
+   p {
+      margin-top: 45px;
+      font-size: 20px;
+      line-height: 40px;
+   }
+}
+
+.text {
+   font-size: 20px;
+   margin-top: -10%;
+   width: 45%;
+   margin-left: 23%;
+   padding: 0 35px; 
+   box-shadow: 0 12px 55px -10px rgb(199, 192, 192);
+   overflow-y: scroll;
+   height: 905px;
+}
+::-webkit-scrollbar{
+   display: none;
+}
+#family-text {
+  color: #4768CE;
+   margin-top: 10%;
+}
+
+#protection-text {
+   color: #4768CE;
+   margin-top: 6%;
+}
+
+#survival-text {
+   color: #4768CE;
+   margin-top: 6%;
+}
+.nav-bar a{
+ text-decoration: none;
+ color:black;
+margin-top: 250px;
+}
+#author{
+   margin-left: -85px;
+   position: absolute;
+   top: -90px;
+}
+
+.main-content {
+   display: flex;
+}
+
+.books-dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+.books-content {
+   display: none;
+   position: absolute;
+   background-color: gray;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px black;
+   padding: 12px 16px;
+   z-index: 1;
+   font-size: smaller;
+   color: white;
+   border-radius: 10px;
+   height: auto;
+   line-height: 5vh;
+}
+
+.books-content a {
+   color: white;
+}
+
+.books-dropdown:hover .books-content {
+   display: block;
+}
+
+.books-dropdown span {
+   color: navy;
+   font-size: 1.5em;
+   justify-content: center;
+}
+.author-dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+.author-content {
+   display: none;
+   position: absolute;
+   background-color: gray;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px black;
+   padding: 12px 16px;
+   z-index: 1;
+   font-size: smaller;
+   color: white;
+   border-radius: 10px;
+   height: auto;
+   line-height: 5vh;
+   top: 200px;
+   left: -65px;
+}
+
+.author-content a {
+   color: white;
+}
+
+.author-dropdown:hover .author-content {
+   display: block;
+}
+
+.author-dropdown span {
+   color: navy;
+   font-size: 1.5em;
+   justify-content: center;
+}
+
+.reviews-container {
+   top: 175%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+   max-width: 50vw;
+   text-align: center;
+   background-color: #eedb72;
+   color:black;
+   height: 25vh;
+   width: 65vh;
+   border-radius: 5px;
+}
+
+
+.navigation-button {
+   position: absolute;
+   top: 50%;
+   width: auto;
+   padding: 16px;
+   margin-top: -22px;
+   color: white;
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+   opacity: 0.8;
+   font-size: 18px;
+}
+#reading{
+   position: absolute;
+   left: 78%;
+   top: 110%;
+   width: 15%;
+}
+#being-choosen{
+   position: absolute;
+   left: 75%;
+   top: 60%;
+   width: 20%;
+}
+#becoming{
+   width: 25%;
+   margin-left: 73%;
+   margin-top: 5%;
+}
+
+.w3-display-left {
+   left: 0;
+
+}
+
+.w3-display-right {
+   right: 0;
+}
+
+.footer{
+   display: flex;
+   gap: 5%;
+   justify-content: center;
+   background-color: #4768CE;
+  padding: 1%;
+  margin-top: 10%;
+  line-height: 35px;
+}
+.footer li{
+   color: white;
+   font-size: 1.3em;
+   justify-content: space-around;
+   list-style: none;
+   
+   a{
+      color: white;
+      text-decoration: none;
+   }
+   a:hover{
+    color: rgb(20, 20, 61);
+   }
+}
+#footerTitle{
+   color: rgb(20, 20, 61);
+}
+
+
+@media only screen and (max-width: 768px){
+   #context {
+      font-size: 45px;
+   }
+   .text {
+      font-size: 20px;
+      margin-top: -30%;
+   }
+   #travor-mom:hover {
+      transform: scale(1.1);
+   
+   }
+   .reviews-container {
+      top: 150%;
+      left: 49%;
+      position: absolute;
+      max-width: 75vw;
+      text-align: center;
+      color: white;
+      height: 35vh;
+      width: 70vh;
+      border-radius: 5px;
+   }
+   .footer{
+      display: flex;
+      gap: 5%;
+      justify-content: center;
+      background-color: #4768CE;
+     padding: 1%;
+     margin-top: 70%;
+     line-height: 35px;
+   }
+   .footer li{
+      color: white;
+      font-size: 1.1em;
+      justify-content: space-around;
+      list-style: none;
+      
+      a{
+         color: white;
+         text-decoration: none;
+      }
+      a:hover{
+       color: rgb(20, 20, 61);
+      }
+   }
+   #footerTitle{
+      color: rgb(20, 20, 61);
+   }
+}
+
+
+@media only screen and (min-width: 750px) and (max-width: 999px) {
+   #context {
+      font-size: 45px;
+   }
+   #reading{
+      position: absolute;
+      left: 78%;
+      top: 90%;
+      width: 15%;
+   }
+   #being-choosen{
+      position: absolute;
+      left: 75%;
+      top: 50%;
+      width: 20%;
+   }
+   .text {
+      font-size: 20px;
+      margin-top: -30%;
+   }
+   #travor-mom:hover {
+      transform: scale(1.1);
+   
+   }
+   .reviews-container {
+      top: 135%;
+      left: 49%;
+      position: absolute;
+      max-width: 75vw;
+      text-align: center;
+      color: white;
+      width: 70vh;
+      border-radius: 5px;
+   }
+   .footer{
+      display: flex;
+      gap: 5%;
+      justify-content: center;
+      background-color: #4768CE;
+     padding: 1%;
+     margin-top: 70%;
+     line-height: 35px;
+   }
+   .footer li{
+      color: white;
+      font-size: 1.1em;
+      justify-content: space-around;
+      list-style: none;
+      
+      a{
+         color: white;
+         text-decoration: none;
+      }
+      a:hover{
+       color: rgb(20, 20, 61);
+      }
+   }
+   #footerTitle{
+      color: rgb(20, 20, 61);
+   }
+}
