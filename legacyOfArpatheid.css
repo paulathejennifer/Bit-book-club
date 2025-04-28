@@ -1,0 +1,370 @@
+body{
+    background-color:  #4768ce;
+    overflow-x: hidden;
+    height: 150vh;
+    font-size: 1em;
+}
+
+
+.header{
+  width: 100vw;
+  height: 30vh;
+  margin: -1%;
+}
+.body{
+  background-color: white;
+  height: 150vh;
+  width: 98vw;
+  border-radius: 2em;
+  z-index: 3 ;
+margin-top: 7%;}
+
+
+
+.mainBody{
+  display: flex;
+  gap: 3%;
+}
+
+
+#bookMarkTrevoh{
+  width: 50%;
+  height: 50%;
+  margin-left: 20%;
+  margin-top: 20%;
+  border-radius: 2em;
+  box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
+}
+#bookMark{
+  width: 40%;
+  left: 100%;
+  height: 70%;
+  border-radius: 2em;
+  box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
+ top: 10%;
+ left: 10%;
+}
+
+.content{
+   background-color: rgb(243, 243, 218);
+    padding: 2em;
+    padding-top: 5em;
+    width: 45vw;
+    height: 110vh;
+    overflow-x: hidden;
+    font-size: 1.5em;
+    } 
+    .quote{
+      display: flex;
+      padding: 2%;
+    }
+    
+
+    #excerptQuote{
+      font-style: italic;   
+       font-size: 1.4em;
+       bottom: 5%;
+       width: 60%;
+       padding: 4%;
+    }
+    #excerpt{
+      font-style: italic;   
+       font-size: 1.2em;
+       bottom: 5%;
+    }
+
+
+  .blogTitle{
+    background-color: white;
+    margin: -2%;
+
+}
+#blogTitle{
+  text-align: center;
+  font-size: 2em;
+  color:  rgb(8, 8, 82);
+
+}
+
+
+ #excerptAnalysis{
+    font-size: 1.2em;
+ }
+
+ .bookTitle{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 3%;
+    
+ }
+
+ #bookTitle{
+    color: rgb(14, 14, 71);
+ }
+
+
+
+ .blogPosts{
+    position: absolute;
+    top: 155%;
+    left: 5%;
+    width: 80vw;
+    padding-left: 5%;
+}
+
+
+
+#blogPostsTitle{
+  text-align: center;
+  font-size: 2em;
+  text-decoration: none;
+  color: orange;
+}
+
+.blogHeading{
+  background-color:  rgb(19, 19, 83);
+  color: orange;
+  width: 50vw;
+  margin-left: 25%;
+  
+}
+
+#excerptBlog{
+  font-style: italic;   
+   font-size: 1.2em;
+   bottom: 5%;
+}
+
+
+
+
+
+.navigation{
+  width: 30vw;
+}
+
+
+
+.navBar li{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.navBar{
+justify-content: center; 
+background-color: rgb(52, 52, 112);
+margin-top: -2%;
+
+}
+
+  .navBar li  a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  justify-content:  center;
+}
+
+.navBar li a:hover{
+ color: orange;
+
+}
+.footer{
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+ padding: 3%;
+
+}
+
+.footer li{
+  color: white;
+  font-size: 1.5em;
+  justify-content: space-around;
+  list-style: none;
+
+  a{
+     color: white;
+     text-decoration: none;
+  }
+
+  a:hover{
+   color: rgb(20, 20, 61);
+  }
+}
+
+#footerTitle{
+
+  color: rgb(20, 20, 61);
+  
+}
+
+
+
+
+
+@media only screen and (max-width:750px) and (min-width:0px){
+  .navBar li{
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     gap: 2%;
+   }
+ 
+   .navBar{
+ justify-content: center; 
+ background-color: rgb(52, 52, 112);
+ margin-top: -2%;
+ 
+  }
+ 
+     .navBar li  a{
+     text-decoration: none;
+     color: white;
+     font-size: 0.9em;
+     justify-content:  center;
+  }
+ 
+  .navBar li a:hover{
+    color: orange;
+ 
+  }
+
+
+
+
+
+.footer{
+  flex-direction: column;
+
+}
+
+.footer li{
+  font-size: 1em;
+
+}
+
+
+
+
+#bookMarkTrevoh{
+ display: none;
+}
+
+.navigation{
+  display: none;
+}
+
+
+
+
+.bookTitle{
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  margin-top: 0%;
+  
+}
+
+
+
+.content{
+  background-color: rgb(243, 243, 218);
+   padding: 2em;
+   padding-top: 5em;
+   width: 90vw;
+   height: 110vh;
+   overflow-x: hidden;
+   margin-top: 2%;
+   } 
+   .quote{
+flex-direction: column;   
+  padding: 2%;
+   }
+   
+   #excerptQuote{
+    font-style: italic;   
+     font-size: 1.4em;
+     bottom: 5%;
+     width: 100%;
+     padding: 4%;
+  }
+
+
+  .body{
+    background-color: white;
+    height: 150vh;
+    width: 96vw;
+    border-radius: 2em;
+    z-index: 3 ;
+  margin-top: 7%;}
+
+
+  .blogPosts{
+    position: absolute;
+    top: 155%;
+    left: 5%;
+    width: 80vw;
+    padding-left: 5%;
+}
+
+
+
+#blogPostsTitle{
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+  color: orange;
+}
+
+}
+
+
+@media only screen and (max-width:1400px) and (min-width:750px){
+
+
+  .content{
+    background-color: rgb(243, 243, 218);
+     padding: 2em;
+     padding-top: 5em;
+     width: 90vw;
+     height: 110vh;
+     overflow-x: hidden;
+     margin-top: 2%;
+     font-size: 1em;
+     } 
+
+
+     .bookTitle{
+      text-align: center;
+      color: white;
+      font-size: 1.3em;
+      margin-top: 0%;
+      
+    }
+
+
+
+#blogPostsTitle{
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+  color: orange;
+}
+
+
+
+.blogHeading{
+  background-color:  rgb(19, 19, 83);
+  color: orange;
+  width: 50vw;
+  margin-left: 18%;
+  
+}
+}
+
+
+
+

@@ -1,0 +1,323 @@
+body{
+    background-color:  #4768ce;
+    overflow-x: hidden;
+    height: 90vh;
+}
+
+
+.header{
+  width: 100vw;
+  height: 30vh;
+  margin: -1%;
+}
+.body{
+    background-color: white;
+    height: 110vh;
+    width: 98vw;
+    border-radius: 2em;
+    z-index: 3 ;
+margin-top: 7%;}
+
+.content{
+   background-color: rgb(243, 243, 218);
+    padding: 2em;
+    padding-top: 5em;
+    width: 35vw;
+    height: 80vh;
+    transform: translate(80%);
+    overflow-x: hidden;
+}
+
+
+
+  .blogTitle{
+      background-color: white;
+
+  }
+  #blogTitle{
+    text-align: center;
+    font-size: 2em;
+    color:  rgb(8, 8, 82);
+
+  }
+
+   .navBar li{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10%;
+  }
+
+  .navBar{
+justify-content: center; 
+background-color: rgb(52, 52, 112);
+margin-top: -2%;
+
+ }
+
+    .navBar li  a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    justify-content:  center;
+ }
+
+ .navBar li a:hover{
+   color: orange;
+
+ }
+
+ #excerpt{
+   font-style: italic;   
+    font-size: 1.2em;
+    bottom: 5%;
+    color:rgb(8, 8, 82) ;
+ }
+
+ #analysis{
+    font-size: 1.2em;
+ }
+
+ .bookTitle{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+ }
+
+ .bookCover{
+   display: flex;
+ }
+
+   #noahImage{
+     width: 40%;
+   }
+ #bookCoverQuote{
+   font-size: 1.2em;
+  padding: 3%;
+  padding-top: 10%;
+ }
+ #bookTitle{
+    color: rgb(14, 14, 82);
+ }
+
+ .blogPosts{
+      position: absolute;
+      top: 130%;
+      left: 5%;
+      width: 80vw;
+      padding-left: 5%;
+ }
+
+
+
+
+.blogHeading{
+    background-color:  rgb(19, 19, 83);
+    color: orange;
+    width: 50vw;
+    margin-left: 25%;
+    
+}
+ #excerptBlog{
+    font-style: italic;   
+     font-size: 1.2em;
+     bottom: 5%;
+  }
+
+  #blogPostsTitle{
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    color: orange;
+  }
+
+
+
+
+  .author{
+    display: flex;
+    gap: 7%;
+align-items: center; 
+   margin-top: 30%;
+ }
+  
+
+  
+ 
+ .footer{
+   display: flex;
+   gap: 5%;
+   justify-content: center;
+  padding: 3%;
+
+}
+
+.footer li{
+   color: #ffffff;
+   font-size: 1.5em;
+   justify-content: space-around;
+   list-style: none;
+   
+
+
+   a{
+      color: white;
+      text-decoration: none;
+   }
+
+   a:hover{
+    color: rgb(20, 20, 61);
+   }
+}
+
+#footerTitle{
+
+   color: rgb(20, 20, 61);
+   
+}
+
+.footerArticles{
+justify-content: right;}
+
+.authors{
+   justify-content: left;
+}
+
+
+@media only screen and (max-width:750px) and (min-width:0px){
+   .navBar li{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      gap: 2%;
+    }
+  
+    .navBar{
+  justify-content: center; 
+  background-color: rgb(52, 52, 112);
+  margin-top: -2%;
+  
+   }
+  
+      .navBar li  a{
+      text-decoration: none;
+      color: white;
+      font-size: 0.9em;
+      justify-content:  center;
+   }
+  
+   .navBar li a:hover{
+     color: orange;
+  
+   }
+
+  
+.body{
+   background-color: white;
+   height: 110vh;
+   width: 95vw;
+   border-radius: 2em;
+   z-index: 3 ;
+margin-top: 20%;
+}
+
+.content{
+  background-color: rgb(243, 243, 218);
+   padding: 2em;
+   padding-top: 5em;
+   width: 75vw;
+   height: 80vh;
+   transform: none;
+   overflow-x: hidden;
+   margin-top: 3%;
+   border-radius: 2em;
+}
+
+
+
+ .blogTitle{
+     background-color: white;
+
+ }
+ #blogTitle{
+   text-align: center;
+   font-size: 0.9em;
+   color:  rgb(8, 8, 82);
+
+ }
+
+
+ .bookTitle{
+   text-align: center;
+   color: white;
+   font-size: 1.2em;
+}
+
+.bookCover{
+   display: flex;
+   flex-direction: column;
+ }
+
+   #noahImage{
+     width: 50%;
+   }
+ #bookCoverQuote{
+   font-size: 1em;
+  padding: 3%;
+  padding-top: 10%;
+ }
+   
+ #blogPostsTitle{
+   text-align: center;
+   font-size: 0.8em;
+   text-decoration: none;
+   color: orange;
+
+ }
+
+
+ 
+ .footer{
+   flex-direction: column;
+
+}
+
+.footer li{
+   font-size: 1em;
+
+}
+
+
+
+ 
+}
+
+
+@media only screen and (max-width:999px) and (min-width:751px){
+   .bookTitle{
+      text-align: center;
+      color: white;
+      font-size: 1.2em;
+   }
+
+
+   .content{
+      background-color: rgb(243, 243, 218);
+       padding: 2em;
+       padding-top: 5em;
+       width: 45vw;
+       height: 80vh;
+       transform: translate(45%);
+       overflow-x: hidden;
+   }
+
+
+   #blogPostsTitle{
+      text-align: center;
+      font-size: 1.3em;
+      text-decoration: none;
+      color: orange;
+   
+    }
+  
+}

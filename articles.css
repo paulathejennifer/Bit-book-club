@@ -1,0 +1,406 @@
+
+
+body{
+    background-color:  #4768ce;
+    overflow-x: hidden;
+    height: 150vh;
+    font-size: 1em;
+ }
+ 
+ 
+ .header{
+  width: 100vw;
+  height: 30vh;
+  margin: -1%;
+ }
+ 
+ 
+ .blogTitle{
+    background-color: white;
+    margin: -2%;
+ 
+ }
+ #blogTitle{
+  text-align: center;
+  font-size: 2em;
+  color:  rgb(8, 8, 82);
+ 
+ }
+ 
+ 
+ 
+ .bookTitle{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 3%;
+    
+ }
+ 
+ #bookTitle{
+    color: white;
+    padding-top: 5%;
+ }
+ 
+ .mainPart{
+   
+ 
+    background-color: white;
+    height: 170vh;
+    width: 98vw;
+    border-radius: 2em;
+    z-index: 3 ;
+ } 
+ 
+ .authors1, .authors2{
+   
+    display: flex;
+  }
+ 
+  
+ 
+  .authorAdeday{
+    background-color: rgb(212, 228, 241);
+    box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
+    padding: 2% ;
+    width: 42%;
+    margin: 3%;
+ 
+ 
+ 
+ }
+ 
+ #adedayImage{
+    width: 50%;
+    border-radius: 2em;
+ }
+ 
+ .adedayContent{
+    padding: 2%;
+ }
+ 
+ li{
+    list-style: none;
+ }
+ li a{
+    text-decoration: none;
+ }
+ 
+ li a :hover{
+    color: orange;
+ }
+ 
+ 
+ 
+ 
+ #authorPheobe{
+    border-radius: 2em;
+ }
+ 
+ .navList{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 3%;
+  }
+ 
+
+  .navBar li{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10%;
+  }
+
+  .navBar{
+justify-content: center; 
+background-color: rgb(52, 52, 112);
+margin-top: -2%;
+
+ }
+
+    .navBar li  a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    justify-content:  center;
+ }
+
+ .navBar li a:hover{
+   color: orange;
+
+ }
+ 
+ .footer{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+   padding: 3%;
+ }
+ 
+ .footer li{
+    color: white;
+    font-size: 1.5em;
+    justify-content: space-around;
+ 
+    a{
+       color: white;
+    }
+ 
+    a:hover{
+     color: rgb(20, 20, 61);
+    }
+ }
+ 
+ #footerTitle{
+ 
+    color: rgb(20, 20, 61);
+    
+ }
+
+
+
+@media only screen and (max-width:389px) and (min-width:0px){
+
+
+    body{
+        background-color:  #4768ce;
+        overflow-x: hidden;
+        height: 350vh;
+        font-size: 1em;
+     }
+    .navBar li{
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       gap: 2%;
+     }
+   
+     .navBar{
+   justify-content: center; 
+   background-color: rgb(52, 52, 112);
+   margin-top: -2%;
+   
+    }
+   
+       .navBar li  a{
+       text-decoration: none;
+       color: white;
+       font-size: 0.9em;
+       justify-content:  center;
+    }
+   
+    
+
+ 
+ 
+  
+  .footer{
+    flex-direction: column;
+    margin-top: 630%;
+ 
+ }
+ 
+ .footer li{
+    font-size: 1em;
+ 
+ }
+ 
+ 
+
+
+ .mainPart{
+   
+ 
+    background-color: white;
+    height: 200vh;
+    width: 98vw;
+    border-radius: 2em;
+    z-index: 3 ;
+ } 
+ 
+ .authors1, .authors2{
+   
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em;
+
+    background-color: white;
+
+  }
+ 
+ 
+
+
+  .authorAdeday{
+    background-color: rgb(212, 228, 241);
+    box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
+    padding: 2% ;
+    width: 90%;
+    margin: 3%;
+ 
+ 
+ 
+ }
+  
+ }
+ 
+
+ @media only screen and (max-width:750px) and (min-width:390px){
+    body{
+        background-color:  #4768ce;
+        overflow-x: hidden;
+        height: 350vh;
+        font-size: 1em;
+     }
+    .navBar li{
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       gap: 2%;
+     }
+   
+     .navBar{
+   justify-content: center; 
+   background-color: rgb(52, 52, 112);
+   margin-top: -2%;
+   
+    }
+   
+       .navBar li  a{
+       text-decoration: none;
+       color: white;
+       font-size: 0.9em;
+       justify-content:  center;
+    }
+   
+    
+
+ 
+ 
+  
+  .footer{
+  display: none;
+ 
+ }
+ 
+ 
+ 
+ 
+
+
+ .mainPart{
+   
+ 
+    background-color: white;
+    height: 200vh;
+    width: 98vw;
+    border-radius: 2em;
+    z-index: 3 ;
+ } 
+ 
+ .authors1, .authors2{
+   
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em;
+
+    background-color: white;
+
+  }
+ 
+ 
+
+
+  .authorAdeday{
+    background-color: rgb(212, 228, 241);
+    box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
+    padding: 2% ;
+    width: 90%;
+    margin: 3%;
+ 
+ 
+ 
+ }
+ }
+
+
+
+ @media only screen and (max-width:1400px) and (min-width:751px){
+    body{
+        background-color:  #4768ce;
+        overflow-x: hidden;
+        height: 350vh;
+        font-size: 1em;
+     }
+    .navBar li{
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       gap: 2%;
+     }
+   
+     .navBar{
+   justify-content: center; 
+   background-color: rgb(52, 52, 112);
+   margin-top: -2%;
+   
+    }
+   
+       .navBar li  a{
+       text-decoration: none;
+       color: white;
+       font-size: 2em;
+       justify-content:  center;
+    }
+   
+    
+
+ 
+ 
+  
+  .footer{
+  display: none;
+ 
+ }
+ 
+ 
+ 
+ 
+
+
+ .mainPart{
+   
+ 
+    background-color: white;
+    height: 200vh;
+    width: 98vw;
+    border-radius: 2em;
+    z-index: 3 ;
+ } 
+ 
+ .authors1, .authors2{
+   
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em;
+    font-size: 2em;
+    background-color: white;
+
+  }
+ 
+ 
+
+
+  .authorAdeday{
+    background-color: rgb(212, 228, 241);
+    box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
+    padding: 2% ;
+    width: 90%;
+    margin: 3%;
+ 
+ 
+ 
+ }
+ }
+
