@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(8, 8, 82);
+    background-color: rgb(20, 106, 187);
     height: 200vh;
 }
 .quote{
@@ -100,7 +100,7 @@ body {
 #titleBlog {
     text-align: center;
     font-size: 2em;
-    color: rgb(8, 8, 82);
+    color: rgb(20, 106, 187);
 }
 
 .blogs {
@@ -133,11 +133,11 @@ body {
        text-decoration: none;
     }
     a:hover{
-     color: rgb(20, 20, 61);
+     color: rgb(20, 106, 187);
     }
  }
  #footerTitle{
-    color: rgb(20, 20, 61);
+    color: rgb(20, 106, 187);
  }
  .adv img{
     margin-left: 10%;
@@ -166,7 +166,7 @@ text-decoration: none;
 @media only screen and (max-width: 750px){
 
     body {
-        background-color: rgb(8, 8, 82);
+        background-color: rgb(20, 106, 187);
         height: 200vh;
     }
     .quote{
@@ -275,7 +275,7 @@ text-decoration: none;
     #titleBlog {
         text-align: center;
         font-size: 20px;
-        color: rgb(8, 8, 82);
+        color: rgb(20, 106, 187);
     }
     
     .blogs {
@@ -310,11 +310,11 @@ text-decoration: none;
            text-decoration: none;
         }
         a:hover{
-         color: rgb(20, 20, 61);
+         color: rgb(20, 106, 187);
         }
      }
      #footerTitle{
-        color: rgb(20, 20, 61);
+        color: rgb(20, 106, 187);
      }
      .adv img{
         margin-left: 10%;
@@ -376,7 +376,7 @@ text-decoration: none;
 
 
     body {
-        background-color: rgb(8, 8, 82);
+        background-color: rgb(20, 106, 187);
         height: 200vh;
     }
     .quote{
@@ -485,7 +485,7 @@ text-decoration: none;
     #titleBlog {
         text-align: center;
         font-size: 20px;
-        color: rgb(8, 8, 82);
+        color: rgb(20, 106, 187);
     }
     
     .blogs {
@@ -524,11 +524,11 @@ text-decoration: none;
            text-decoration: none;
         }
         a:hover{
-         color: rgb(20, 20, 61);
+         color: rgb(20, 106, 187);
         }
      }
      #footerTitle{
-        color: rgb(20, 20, 61);
+        color: rgb(20, 106, 187);
      }
      .adv img{
         margin-left: 22%;
@@ -595,7 +595,7 @@ text-decoration: none;
 
 
     body {
-        background-color: rgb(8, 8, 82);
+        background-color: rgb(20, 106, 187);
         height: 200vh;
     }
     .quote{
@@ -704,7 +704,7 @@ text-decoration: none;
     #titleBlog {
         text-align: center;
         font-size: 35px;
-        color: rgb(8, 8, 82);
+        color: rgb(20, 106, 187);
     }
     
     .blogs {
@@ -743,11 +743,11 @@ text-decoration: none;
            text-decoration: none;
         }
         a:hover{
-         color: rgb(20, 20, 61);
+         color: rgb(20, 106, 187);
         }
      }
      #footerTitle{
-        color: rgb(20, 20, 61);
+        color: rgb(20, 106, 187);
      }
      .adv img{
         margin-left: 22%;
