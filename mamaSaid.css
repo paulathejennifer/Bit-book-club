@@ -1,0 +1,570 @@
+body {
+  margin: 0;
+  background-color: #F0DA60;
+  overflow-x: hidden;
+}
+
+#rectangle-header {
+  text-align: center;
+  background-color: #4768CE;
+  margin-top: -25px;
+  padding: 50px;
+  height: 350px;
+  width: 100%;
+}
+
+#rectangle-header h2 {
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  padding-top: 1cm;
+  color: orange;
+}
+
+#rectangle-header p {
+  font-size: 20px;
+
+}
+
+.navBar {
+  list-style: none;
+  margin-top: 100px;
+
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navBar hr {
+  width: fit-content;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  cursor: pointer;
+  border: none;
+  color: black;
+
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.author-item {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.author-item a {
+  flex-grow: 1;
+  text-decoration: none;
+  display: block;
+  padding: 12px 16px;
+  color: black;
+}
+
+.author-image {
+  display: none;
+  position: absolute;
+  right: -30px;
+  top: -20px;
+  z-index: 2;
+  padding: 5px;
+
+
+}
+
+.author-image img {
+  display: block;
+  border-radius: 100%;
+
+}
+
+.author-item:hover .author-image {
+  display: block;
+
+}
+
+
+#book-dropdown {
+  margin-left: 100px;
+}
+
+.author-book {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.author-book a {
+  flex-grow: 1;
+  text-decoration: none;
+  display: block;
+  padding: 12px 16px;
+  color: black;
+}
+
+.book-image {
+  display: none;
+  position: absolute;
+  right: -30px;
+  top: -20px;
+  z-index: 2;
+  padding: 5px;
+
+
+}
+
+.book-image img {
+  display: block;
+  border-radius: 100%;
+
+}
+
+.author-book:hover .-image {
+  display: block;
+
+}
+
+#blog-container {
+  display: flex;
+
+}
+
+.blog-text {
+  width: 600px;
+  height: 1000px;
+  overflow: scroll;
+  line-height: 1cm;
+  border: 2px solid black;
+  border: none;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: #ddd;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.blog-text h4 {
+  font-size: 25px;
+}
+
+.blog-text h5 {
+  font-size: 20px;
+}
+
+#blog-excerpt {
+  font-style: italic;
+
+}
+
+.becoming {
+  min-width: 600px;
+}
+
+.becoming img {
+  width: 70px;
+  border-radius: 20px;
+  margin-top: 400px;
+  margin-left: 100px;
+  filter: brightness(0.6);
+}
+
+#quote-container {
+  position: relative;
+  z-index: -1;
+  width: 200px;
+  height: 350px;
+  top: -50px;
+  left: 10px;
+
+
+
+
+}
+
+.trevor-quotes {
+  margin-top: 00px;
+}
+
+.author-quote {
+  color: rgb(226, 192, 127);
+  position: absolute;
+  z-index: 1;
+  transform: translate(60%, -120%);
+  font-family: "Oswald", sans-serif;
+  text-align: right;
+}
+
+.footer {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  padding: 3%;
+  background-color: #4768CE;
+
+}
+
+.footer li {
+  color: white;
+  font-size: 1.5em;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 1cm;
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    color: rgb(20, 20, 61);
+  }
+}
+
+#footerTitle {
+  color: rgb(20, 20, 61);
+}
+
+.more-articles-button {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #d4a373;
+  bottom: 0.5cm;
+  font-weight: bold;
+  color: aliceblue;
+  border-color: #d4a373;
+  margin-left: 150px;
+  margin-top: 0.5cm;
+}
+
+.more-articles-button:hover {
+  background-color: #b18255;
+}
+
+@media screen and (min-width: 320px) and (max-width:857px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    background-color: #F0DA60;
+    overflow-x: hidden;
+  }
+
+  #rectangle-header {
+    text-align: center;
+    background-color: #4768CE;
+    margin-top: -25px;
+    padding: 0px;
+    height: 350px;
+    width: 100%;
+  }
+
+  #rectangle-header h2 {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    padding-top: 1cm;
+    color: orange;
+  }
+
+  #rectangle-header p {
+    font-size: 20px;
+
+  }
+
+  .navBar {
+    list-style: none;
+    margin-top: 100px;
+
+  }
+
+  .navBar a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .navBar hr {
+    width: fit-content;
+
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-button {
+    cursor: pointer;
+    border: none;
+    color: black;
+
+  }
+
+  .dropdown-content {
+    position: absolute;
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 0;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .author-item {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .author-item a {
+    flex-grow: 1;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+    color: black;
+  }
+
+  .author-image {
+    display: none;
+    position: absolute;
+    right: -30px;
+    top: -20px;
+    z-index: 2;
+    padding: 5px;
+
+
+  }
+
+  .author-image img {
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  .author-item:hover .author-image {
+    display: block;
+
+  }
+
+
+  #book-dropdown {
+    margin-left: 100px;
+  }
+
+  .author-book {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .author-book a {
+    flex-grow: 1;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+    color: black;
+  }
+
+  .book-image {
+    display: none;
+    position: absolute;
+    right: -30px;
+    top: -20px;
+    z-index: 2;
+    padding: 5px;
+
+
+  }
+
+  .book-image img {
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  .author-book:hover .-image {
+    display: block;
+
+  }
+
+  #blog-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .blog-text {
+    width: 300px;
+    height: 1000px;
+    overflow: scroll;
+    line-height: 1cm;
+    border: 2px solid black;
+    border: none;
+    padding: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: #ddd;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .blog-text h4 {
+    font-size: 25px;
+  }
+
+  .blog-text h5 {
+    font-size: 20px;
+  }
+
+  .blog-text img {
+    width: 200px;
+  }
+
+  #blog-excerpt {
+    font-style: italic;
+
+  }
+
+  .becoming {
+    min-width: 600px;
+  }
+
+  .becoming img {
+    width: 70px;
+    border-radius: 20px;
+    margin-top: 400px;
+    margin-left: 100px;
+    filter: brightness(0.6);
+  }
+
+  #quote-container {
+    position: relative;
+    z-index: -1;
+    width: 200px;
+    height: 350px;
+    top: -50px;
+    left: 10px;
+
+  }
+
+  #inspirations {
+    color: rgb(9, 32, 75);
+    font-weight: 100;
+  }
+
+  .trevor-quotes {
+    margin-top: 00px;
+  }
+
+  .author-quote {
+    color: rgb(226, 192, 127);
+    position: absolute;
+    z-index: 1;
+    transform: translate(60%, -120%);
+    font-family: "Oswald", sans-serif;
+    text-align: right;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    padding: 3%;
+    background-color: #4768CE;
+
+  }
+
+  .footer li {
+    color: white;
+    font-size: 1rem;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 1cm;
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      color: rgb(20, 20, 61);
+    }
+  }
+
+  #footerTitle {
+    color: rgb(20, 20, 61);
+  }
+
+  .more-articles-button {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #d4a373;
+    bottom: 0.5cm;
+    font-weight: bold;
+    color: aliceblue;
+    border-color: #d4a373;
+    margin-left: 150px;
+    margin-top: 0.5cm;
+  }
+
+  .more-articles-button:hover {
+    background-color: #b18255;
+  }
+}
